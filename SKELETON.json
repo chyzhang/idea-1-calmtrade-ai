@@ -1,0 +1,15 @@
+{
+  "base_form": "web_app",
+  "nav": {
+    "mode": "topbar",
+    "items": ["Home", "Breathe", "History", "Settings"]
+  },
+  "mvp_scope": {
+    "include": [
+      "Breathing guide with visual animations",
+      "Trade anxiety detection",
+      "Automated breathing prompts",
+      "Trading session monitoring"
+    ]
+  }
+}
