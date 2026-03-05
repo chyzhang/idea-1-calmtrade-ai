@@ -1,17 +1,13 @@
 # Skeleton: CalmTrade AI
 
 ## Product Form
-**web_app** - Trading requires desktop/laptop environments with multiple monitors, real-time data feeds, and integration with existing trading platforms.
+**web_app** - Traders operate on desktop environments with multiple monitors, requiring real-time integration with trading charts and platforms.
 
 ## Navigation
-**topbar**: Home, Breathe, History, Settings
+**topbar**: Home, Breathe, Charts, Settings
 
 ## MVP Scope
-- **Breathing guide with visual animations** - Core breathing exercises with engaging visual guidance to help traders calm down
-- **Trade anxiety detection** - Real-time monitoring of trader emotional state during active trading sessions  
-- **Automated breathing prompts** - Smart triggering of breathing exercises when anxiety levels exceed healthy thresholds
-- **Trading session monitoring** - Integration with trading activity to provide contextual support during live trades
-
-## Rationale
-
-CalmTrade AI addresses the critical problem of emotional trading decisions by providing real-time interventions. The web app form factor aligns with professional trading environments, while the focused MVP scope ensures core value delivery without feature bloat.
+- **Real-time breathing prompts during trades** - Core intervention system that delivers calming exercises precisely when traders need them most
+- **Anxiety detection while trading** - Monitors trader emotional state during live trading sessions to identify stress triggers
+- **Visual breathing guide animations** - Engaging animated guidance to help traders follow proper breathing techniques effectively
+- **Chart-context coaching integration** - AI-powered coaching that understands current market context and trading situation

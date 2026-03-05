@@ -2,14 +2,14 @@
   "base_form": "web_app",
   "nav": {
     "mode": "topbar",
-    "items": ["Home", "Breathe", "History", "Settings"]
+    "items": ["Home", "Breathe", "Charts", "Settings"]
   },
   "mvp_scope": {
     "include": [
-      "Breathing guide with visual animations",
-      "Trade anxiety detection",
-      "Automated breathing prompts",
-      "Trading session monitoring"
+      "Real-time breathing prompts during trades",
+      "Anxiety detection while trading",
+      "Visual breathing guide animations",
+      "Chart-context coaching integration"
     ]
   }
 }
