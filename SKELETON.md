@@ -1,13 +1,13 @@
 # Skeleton: CalmTrade AI
 
 ## Product Form
-**mobile_app** - Quick access during live trading sessions when emotions are highest
+**mobile_app** - Instant access during high-stress trading moments on mobile devices
 
 ## Navigation
-**tabs**: Home, Breathe, Chart, Settings
+**tabs**: Home, Breathe, Coach, Settings
 
 ## MVP Scope
-- Real-time breathing prompts - Immediate intervention when user is trading
-- Trade emotion detection - Recognize impulsive/revenge trade patterns
-- Quick chart context coaching - Fast guidance on current market conditions  
-- Breathing session timer - Track calming sessions during trading stress
+- Emergency breathing prompts - 20-second intervention to prevent revenge trading
+- Emotion state detection - Recognize when trader is getting impulsive
+- Chart context coaching - Quick guidance based on current market conditions
+- Quick calming timer - Fast sessions to regain composure during trades

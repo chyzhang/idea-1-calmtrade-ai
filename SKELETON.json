@@ -2,14 +2,14 @@
   "base_form": "mobile_app",
   "nav": {
     "mode": "tabs",
-    "items": ["Home", "Breathe", "Chart", "Settings"]
+    "items": ["Home", "Breathe", "Coach", "Settings"]
   },
   "mvp_scope": {
     "include": [
-      "Real-time breathing prompts",
-      "Trade emotion detection",
-      "Quick chart context coaching",
-      "Breathing session timer"
+      "Emergency breathing prompts",
+      "Emotion state detection",
+      "Chart context coaching",
+      "Quick calming timer"
     ]
   }
 }
