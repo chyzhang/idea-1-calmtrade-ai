@@ -1,15 +1,32 @@
 {
-  "base_form": "mobile_app",
-  "nav": {
-    "mode": "tabs",
-    "items": ["Home", "Calm", "Coach", "Settings"]
+  "product_path": {
+    "form": "mobile_app",
+    "rationale": "Traders need instant intervention during live sessions — can't switch browser tabs away from trading platform"
   },
-  "mvp_scope": {
-    "include": [
-      "Emergency breathing intervention",
-      "Impulsive trade detection", 
-      "Quick chart coaching",
-      "Calming session tracker"
+  "user_journey": {
+    "trigger": "User feels anxious or impulsive during a live trade",
+    "entry": "One-tap opens breathing screen with current market context",
+    "action": "Complete 20-second guided breathing + optional chart coaching",
+    "outcome": "Anxiety settles, user makes calmer trading decision instead of revenge-trading"
+  },
+  "screens": [
+    { "name": "Breathe", "purpose": "20-second guided breathing exercise with haptic pacing and timer" },
+    { "name": "Context", "purpose": "AI chart coaching based on current market position and emotional state" },
+    { "name": "Track", "purpose": "Log trades and emotional triggers to identify patterns over time" }
+  ],
+  "nav": {
+    "mode": "tabs"
+  },
+  "features": {
+    "p0": [
+      "20-second guided breathing with haptic pacing and countdown",
+      "One-tap emergency calm mode accessible from lock screen",
+      "Basic trade logging with emotion tagging"
+    ],
+    "p1": [
+      "AI chart analysis and position coaching",
+      "Pattern recognition for emotional trading triggers",
+      "Weekly emotional trading pattern summary"
     ]
   }
 }
