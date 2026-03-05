@@ -1,15 +1,15 @@
 {
-  "base_form": "web_app",
+  "base_form": "mobile_app",
   "nav": {
-    "mode": "topbar",
-    "items": ["Home", "Breathe", "Trade", "Settings"]
+    "mode": "tabs",
+    "items": ["Home", "Breathe", "Chart", "Settings"]
   },
   "mvp_scope": {
     "include": [
-      "Breathing prompts during active trades",
-      "Anxiety level monitoring",
-      "Visual breathing guidance",
-      "Chart-context AI coaching"
+      "Real-time breathing prompts",
+      "Trade emotion detection",
+      "Quick chart context coaching",
+      "Breathing session timer"
     ]
   }
 }
