@@ -1,0 +1,19 @@
+{
+  "tech_stack": {
+    "framework": "swiftui",
+    "language": "swift", 
+    "runtime": "swift run CalmTrade"
+  },
+  "stack_rationale": "Native iOS for haptic pacing, lock screen widget, and one-tap emergency access — cross-platform frameworks can't provide these essential mobile-specific features for trader intervention",
+  "screens_created": [
+    { "name": "Breathe", "file": "Sources/CalmTrade/BreatheView.swift" },
+    { "name": "Context", "file": "Sources/CalmTrade/ContextView.swift" }, 
+    { "name": "Track", "file": "Sources/CalmTrade/TrackView.swift" }
+  ],
+  "run_command": "swift run CalmTrade",
+  "structure": {
+    "nav_mode": "tabs",
+    "entry_point": "Sources/CalmTrade/CalmTradeApp.swift",
+    "key_dirs": ["Sources/CalmTrade", "Sources/Views", "Sources/Models"]
+  }
+}
